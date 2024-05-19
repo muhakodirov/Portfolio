@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Oswald:wght@200..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .link {
+        @apply hover:underline underline-offset-4 decoration-darkorange border-b-2 transition hover:border-darkorange;
+    }
+}
