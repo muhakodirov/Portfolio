@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BiMenuAltRight, BiMenuAltLeft } from "react-icons/bi";
 import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 
@@ -27,9 +27,9 @@ function NavMenu() {
     }
 
     return (
-        <div className=''>
-            <div className='flex justify-between mb-2'>
-                <p className='font-[Freeman] text-3xl lg:text-5xl text-darkorange'> MK. </p>
+        <div id='main' className=''>
+            <div className=' flex justify-between mb-2'>
+                <p className='font-[Freeman] text-3xl lg:text-5xl text-darkorange'> <a href="#main"> MK. </a> </p>
                 <div className='flex gap-3 text-xl'>
                     <div className='content-center cursor-pointer hover:text-darkorange transition lg:hidden'>
                         {opened
@@ -38,8 +38,8 @@ function NavMenu() {
 
                     </div>
                     <ul className="hidden lg:flex my-2 gap-5 font-[Oswald] after:content-['|']">
-                        <li><a className='hover:text-darkorange transition' href="">About</a></li>
-                        <li><a className='hover:text-darkorange transition' href="">Stack</a></li>
+                        <li><a className='hover:text-darkorange transition' href="#about">About</a></li>
+                        <li><a className='hover:text-darkorange transition' href="#stack">Stack</a></li>
                         <li><a className='hover:text-darkorange transition' href="">Projects</a></li>
                         <li><a className='hover:text-darkorange transition' href="">Contacts</a></li>
                     </ul>
@@ -50,8 +50,8 @@ function NavMenu() {
             </div>
 
             <ul className={opened ? 'block text-center mb-4 font-[Oswald] lg:hidden' : 'hidden lg:hidden'}>
-                <li><a className='link' href="">About</a></li>
-                <li><a className='link' href="">Stack</a></li>
+                <li><a className='link' href="#about">About</a></li>
+                <li><a className='link' href="#stack">Stack</a></li>
                 <li><a className='link' href="">Projects</a></li>
                 <li><a className='link' href="">Contacts</a></li>
             </ul>

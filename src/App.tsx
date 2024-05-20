@@ -1,6 +1,7 @@
 import About from "./components/About"
 import Main from "./components/Main"
 import NavMenu from "./components/NavMenu"
+import Stack from "./components/Stack"
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <NavMenu />
       <Main />
       <About />
+      <Stack />
     </div>
   )
 }
