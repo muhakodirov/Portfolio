@@ -12,4 +12,8 @@
     .orange_button {
         @apply rounded-lg bg-darkorange opacity-80 dark:opacity-100 text-white font-[Freeman] text-xl p-2 hover:bg-orange-500 transition-all hover:text-lg shadow-lg hover:shadow-xl
     }
+
+    .projectCardsStyle {
+        @apply lg:border lg:font-semibold rounded-md text-sm lg:text-lg text-darkorange p-1 lg:hover:bg-darkorange lg:shadow-xl text-nowrap hover:text-black lg:hover:text-white dark:hover:bg-black transition
+    }
 }

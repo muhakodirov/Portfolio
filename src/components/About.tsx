@@ -8,7 +8,7 @@ function About() {
                     <span className="before:block before:absolute before:-inset-1 before:-skew-y-12 before:rounded-md before:bg-darkorange relative inline-block">
                         <span className="relative text-4xl text-white font-[Freeman] ">ABOUT</span>
                     </span>
-                    <div className="font-[Oswald] text-xl mt-8">
+                    <div className="font-[Oswald] text-xl mt-16">
                         <p className=" first-line:text-2xl first-letter:text-darkorange first-line:uppercase "> I am <span className="tracking-wide"> Muhammad Kodirov</span>,
                             <br />  </p>
                         <div className=" mx-auto lg:w-3/6 my-4">

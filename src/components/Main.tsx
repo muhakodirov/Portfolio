@@ -1,7 +1,7 @@
 
 function Main() {
     return (
-        <div className="text-center lg:flex flex-row-reverse lg:gap-24 lg:container lg:mx-auto ">
+        <div className="text-center lg:flex flex-row-reverse lg:gap-24 lg:container lg:mx-auto mt-16 ">
             <img src="src\images\img.png" className="rounded-full size-80 mx-auto mt-20 shadow-xl lg:shadow-2xl hover:translate-y-2 lg:hover:size-96 transition-all lg:mr-10" alt="" />
             <div className="relative inline-block lg:mt-16 lg:ml-10">
                 <h1 className="text-4xl lg:text-5xl font-[Freeman] mt-5 rounded-sm bg-darkorange">
