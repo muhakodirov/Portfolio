@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Contact from "./components/Contact"
 import Main from "./components/Main"
 import NavMenu from "./components/NavMenu"
 import Projects from "./components/Projects"
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Stack />
       <Projects />
+      <Contact />
     </div>
   )
 }

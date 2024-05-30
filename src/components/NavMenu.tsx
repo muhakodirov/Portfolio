@@ -59,9 +59,9 @@ function NavMenu() {
                 <li><a className='link' onClick={(e) => handleScroll(e, 'about')} href="#about">About</a></li>
                 <li><a className='link' onClick={(e) => handleScroll(e, 'stack')} href="#stack">Stack</a></li>
                 <li><a className='link' onClick={(e) => handleScroll(e, 'projects')} href="#projects">Projects</a></li>
-                <li><a className='link' onClick={(e) => handleScroll(e, 'contacts   ')} href="#contacts">Contacts</a></li>
+                <li><a className='link' onClick={(e) => handleScroll(e, 'contacts')} href="#contacts">Contacts</a></li>
             </ul>
-            <hr className=' w-[100%] dark:border-gray-700' />
+            <hr className=' dark:border-gray-700' />
         </div>
     )
 }
